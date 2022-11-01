@@ -5,14 +5,14 @@ système d'illumination de trottoir sélectif
   Nous proposons un dispositif capable de différencier les entités sur le trottoir basé sur des capteurs de mouvement infra-rouge et des capteurs de poids, tous reliés à un microcontrôleur Arduino, qui effectuera un CAN sur les signaux analogiques et un Raspberry pi 4 qui effectue une prise de décision basée sur le flux de données reçues. 
 
 ## Système de contrôle
-Système controllé par un Rpi-4 ![](https://github.com/Driss-001/blob/main/Imgs/raspberry-pi-4-caratteristiche-tecniche-597590040.png)
+Système controllé par un Rpi-4 ![](../blob/main/Imgs/raspberry-pi-4-caratteristiche-tecniche-597590040.png)
 ![Datasheet](https://m.media-amazon.com/images/I/61h97iDJlWL._AC_SL1000_.jpg)
 
 Le pi utilise des ![arduinos nanos](https://m.media-amazon.com/images/I/61h97iDJlWL._AC_SL1000_.jpg) 
 ![Datasheet](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://docs.arduino.cc/static/a3053b2eb570533aeab01948f35ba4a5/A000005-datasheet.pdf)
 
 Image du système
-![](https://github.com/Driss-001/blob/main/Imgs/Image1.jpg)
+![](../blob/main/Imgs/Image1.jpg)
 
 
 Un dictionnaire de définitions va permettre au pi de reconnaître les entités présentes sur le trottoir et d'agir sut le dispositif d'illumination en conséquent.
@@ -22,7 +22,7 @@ Un dictionnaire de définitions va permettre au pi de reconnaître les entités 
 ### Capteur de poids 
 ![Load Cell](https://www.amazon.ca/-/fr/gp/product/B079FQNJJH/ref=ewc_pr_img_1?smid=A1GUQD3SRXOFFI&psc=1)
 
-Schéma: ![](https://github.com/Driss-001/blob/main/Imgs/Image3.png)
+Schéma: ![](../blob/main/Imgs/Image3.png)
 ![](https://m.media-amazon.com/images/I/612ornIvHHL._AC_SX679_.jpg) 
 
 ## Capteur IR
