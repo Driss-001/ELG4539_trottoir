@@ -9,7 +9,9 @@ Système controllé par un Rpi-4 ![](../blob/main/Imgs/raspberry-pi-4-caratteris
 ![Datasheet](https://m.media-amazon.com/images/I/61h97iDJlWL._AC_SL1000_.jpg)
 
 Le pi utilise des ![arduinos nanos](https://m.media-amazon.com/images/I/61h97iDJlWL._AC_SL1000_.jpg) 
-![Datasheet](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://docs.arduino.cc/static/a3053b2eb570533aeab01948f35ba4a5/A000005-datasheet.pdf)
+
+
+![Datasheet](https://docs.arduino.cc/static/a3053b2eb570533aeab01948f35ba4a5/A000005-datasheet.pdf)
 
 Image du système
 ![](../blob/main/Imgs/Image1.jpg?raw=true)
