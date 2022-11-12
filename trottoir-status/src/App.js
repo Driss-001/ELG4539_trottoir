@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import * as React from 'react';
-import { Box } from '@mui/material/Box';
+import Box from '@mui/material/Box';
 import Button from '@mui/material/Button'
 import Toolbar from '@mui/material/Toolbar';
-import { makeStyles ,ThemeProvider , createTheme, SvgIcon, StepIcon, ListItemIcon, ListItemSecondaryAction } from '@mui/material';
-import { Typography } from '@mui/material/styles/createTypography';
+import { makeStyles ,ThemeProvider , createTheme, SvgIcon, StepIcon, ListItemIcon, ListItemSecondaryAction, Typography } from '@mui/material';
 import AppBar from '@mui/material/AppBar';
 import Container from '@mui/material/Container';
 import TextField from '@mui/material';
@@ -16,6 +15,10 @@ import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import Drawer from '@mui/material/Drawer';
 import AccessibilityRoundedIcon from '@mui/icons-material/AccessibilityRounded';
 import NordicWalkingIcon from '@mui/icons-material/NordicWalking';
+import AirplayIcon from '@mui/icons-material/Airplay';
+import GitHubIcon from '@mui/icons-material/GitHub';
+
+
 const drawerWidth = 240;
 
 
@@ -39,15 +42,21 @@ const Mytheme = createTheme({
 function App() {
   return (
   <ThemeProvider theme={Mytheme}>
+    <Box sx={{flexFrow:1}}>
     <div className="App">
       <AppBar
       position='static'
       color='primary'
       style={{ borderRadius:"80px"}}>
-        <IconButton color='inherit'>
-          <ListItemSecondaryAction/>
+      <Toolbar>
+        <IconButton color='inherit' size ="large" edge = "start" aria-label='menu' sx = {{mr:2}}>
+          <GitHubIcon/>
         </IconButton>
-
+        <Typography variant ="h6"
+        component = "div" sx={{flexFrow:1}}>
+          ELG 4539: Trottoir Status
+        </Typography>
+        </Toolbar>
       </AppBar>
       <header className="App-header">
         <AppBar  position='static'
@@ -59,6 +68,7 @@ function App() {
 
       </header>
     </div>
+    </Box>
   </ThemeProvider>  
   );
 }
