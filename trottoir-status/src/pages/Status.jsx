@@ -11,9 +11,12 @@ const Status = () => {
         <div>
             <h1> Status du trottoir</h1>
             <span className='empty-space'>{""}</span>
-            <img src={ped} width={800} height={800}  alt=""/>
+            <figcaption>Un piéton marche</figcaption>
+            <img src={ped} width={400} height={400}  alt=""/>
             <span className='empty-space'>{""}</span>
-            <img src={lamp_on} width={800} height={800} alt="lamp"/>
+            <figcaption>Le lampadaire est allumé</figcaption>
+            <img src={lamp_on} width={400} height={400} alt="lamp"/>
+            
         </div>
     );
 };
