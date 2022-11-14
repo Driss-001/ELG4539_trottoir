@@ -56,6 +56,7 @@ main{
 
 .App-logo {
   height: 25vmin;
+  align-items: center;
   pointer-events: none;
 }
 
@@ -74,3 +75,6 @@ main{
   }
 }
 
+.empty-space {
+  margin-left: 250px;
+}

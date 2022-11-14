@@ -54,6 +54,10 @@ const Sidebar = ({children}) => { 
                     }
                 </div>
                 <main>{children}
+                <span className='empty-space'>{""}</span>
+                <span className='empty-space'>{""}</span>
+                <span className='empty-space'>{""}</span>
+                <span className='empty-space'>{""}</span>
                 <img src={logo} className="App-logo" alt="logo"/>
                 </main>
 
