@@ -81,9 +81,10 @@ const App = () => {
       <Sidebar>
       <Routes>
         <Route path ="/"element = {<Dashboard/>}/>
-        <Route path ="/"element = {<Analyse/>}/>
-        <Route path ="/"element = {<Status/>}/>
-        <Route path ="/"element = {<About/>}/>
+        <Route path ="/dashboard"element = {<Dashboard/>}/>
+        <Route path ="/analyse"element = {<Analyse/>}/>
+        <Route path ="/status"element = {<Status/>}/>
+        <Route path ="/about"element = {<About/>}/>
       </Routes>
       </Sidebar>
     </BrowserRouter>

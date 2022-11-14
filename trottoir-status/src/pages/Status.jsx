@@ -4,12 +4,14 @@ import lamp_on from '../street-light-lamp-4.jpg';
 import lamp_off from '../street-light-lamp-photo-6.jpg';
 
 
+
 const Status = () => {
+    const Img_size = { width: "10px", height: "10px" } ;
     return (
         <div>
-            <h1> Status</h1>
-            <img src={ped} alt="un piéton marche"/>
-            <img src={lamp_on} alt="lampadaire est allumé"/>
+            <h1> Status du trottoir</h1>
+            <img src={ped} width={800} height={800}  alt=""/>
+            <img src={lamp_on} width={800} height={800} alt="lamp"/>
         </div>
     );
 };

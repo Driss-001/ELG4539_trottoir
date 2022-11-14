@@ -4,7 +4,7 @@ import React from 'react';
 const Dashboard = () => {
     return (
         <div>
-            <h1>Dashboard page</h1>
+            <h1>ELG 4539 Project: système d'illumination de trottoir sélectif </h1>
         </div>
     );
 };
