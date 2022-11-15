@@ -66,7 +66,9 @@ const Sidebar = ({children}) => { 
                 <img src={logo} className="App-logo" alt="logo"/>
                 </main>
                 
-                
+                 <>{setTimeout(() => {
+                    refreshPage()
+                            }, 10000)}</>
             </div>
           
     );

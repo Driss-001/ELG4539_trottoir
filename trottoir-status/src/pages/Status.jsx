@@ -12,49 +12,65 @@ import lamp_off from '../street-light-lamp-photo-6.jpg';
 const Status = () => {
     
     function randomNumber(min, max) { 
-        return Math.random() * (max - min) + min;
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.round(Math.random() * (max - min) + min);
     } 
     
     const road_state =[
         { value : 0,
-          image : <img src={no_one} width={400} height={400}  alt=""/>,
-          texte : <figcaption>rien n'est là</figcaption>      
+          image : no_one,
+          texte : "rien n'est là"      
         },
        {   value : 1,
-           image : <img src={ped} width={400} height={400}  alt=""/>,
-            texte: <figcaption>Un piéton marche</figcaption>
+           image : ped,
+            texte: "Un piéton marche"
        },  
         {
             value :2,
-            image :<img src={car} width={400} height={400}  alt=""/> ,
-            texte: <figcaption>une voiture est sur la route</figcaption>
+            image :car ,
+            texte: "une voiture est sur la route"
         }
    
        ]
     const lamp_state =[
         { value : 0,
-            image : <img src={lamp_off} width={400} height={400}  alt=""/>,
-            texte: <figcaption>Le lampadaire est éteint</figcaption>      
+            image : lamp_off,
+            texte: "Le lampadaire est éteint"      
           },
          {   value : 1,
-             image : <img src={lamp_on} width={400} height={400}  alt=""/>,
-             texte: <figcaption>Le lampadaire est allumé</figcaption>
+             image : lamp_on,
+             texte: "figcaption>Le lampadaire est allumé"
          }
 
     ]   
-
+    
+    
     const Img_size = { width: "10px", height: "10px" } ;
+    const rnd1 = randomNumber(0,2);
+    const rnd2 = randomNumber(0,1);
+
     return (
-        <div>
-            <h1> Status du trottoir</h1>
-            <span className='empty-space'>{""}</span>
-            <figcaption>Un piéton marche</figcaption>
-            <img src={ped} width={400} height={400}  alt=""/>
-            <span className='empty-space'>{""}</span>
-            <figcaption>Le lampadaire est allumé</figcaption>
-            <img src={lamp_on} width={400} height={400} alt="lamp"/>
+        <>
+            <h1> Status du trottoir rnd1 = {rnd1},rnd2 = {rnd2},</h1>
+            <span className  ='empty-space'>{""}</span> 
+            {road_state.map((item)=> item.value === rnd1 ? (
+            <div>
+            <figcaption>{item.texte} </figcaption>
+             <img src={item.image} width={400} height={400}  alt=""/>
+             </div>
+             ):null
+                )}     
+                <span className='empty-space'>{""}</span>
+                 {lamp_state.map((item)=> item.value === rnd2 ? (
+            <div>
+            <figcaption>{item.texte} </figcaption>
+             <img src={item.image} width={400} height={400}  alt=""/>
+             </div>
+             ):null
+                )}
             
-        </div>
+    </>
     );
 };
 
