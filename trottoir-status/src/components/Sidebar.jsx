@@ -10,6 +10,11 @@ import logo from '../logo.svg'
 
 
 const Sidebar = ({children}) => { 
+
+    function refreshPage() {
+        window.location.reload(false);
+      }
+
     const[isOpen,setIsopen] = useState(false);
     const toggle =() => setIsopen(!isOpen);
     const menuItem =[
@@ -60,11 +65,12 @@ const Sidebar = ({children}) => { 
                 <span className='empty-space'>{""}</span>
                 <img src={logo} className="App-logo" alt="logo"/>
                 </main>
-
+                
                 
             </div>
-        
+          
     );
+   
 
 };
 
