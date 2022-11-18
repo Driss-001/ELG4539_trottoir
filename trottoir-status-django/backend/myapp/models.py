@@ -14,3 +14,12 @@ class Myapp(models.Model):
         #it will return the title
         return self.title
 # Create your models here.
+
+class PiState(models.Model):
+    RoadState = models.IntegerField(null=True)
+    LightState = models.IntegerField(null=True)
+    
+    def __str__(self):
+        return self.title
+
+

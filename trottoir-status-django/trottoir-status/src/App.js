@@ -9,6 +9,7 @@ import Dashboard from './pages/Dashboard';
 import Analyse from './pages/Analyse';
 import Status from './pages/Status';
 import About from './pages/About';
+import axios from 'axios'; 
 
 
 
