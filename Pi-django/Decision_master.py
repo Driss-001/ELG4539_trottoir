@@ -8,6 +8,7 @@ import time
 ports = list(serial.tools.list_ports.comports())
 
 for p in ports:
+    print(p)
     if "ttyAMA0" in p.description:
         com1  =p.name
 
@@ -39,7 +40,7 @@ class Decision_master:
     
     def __serial_measurement(self):
         if self.com != None:
-            ser = serial.serial(self.com)
+            ser = serial.erial(self.com)
             ser.baudrate = self.baudrate
             while self.reading:
                 self.raw_data = ser.readline().decode(("ascii"))
@@ -47,12 +48,12 @@ class Decision_master:
                 time.sleep(1e-3)
 
     def Reading_thread(self):
-        self.thread1 = threading.thread(target = self.__serial_measurement)
-        self.thread1.daemon = True
-        self.thread.start()
+        self.th1 = threading.Thread(target = self.__serial_measurement)
+        self.th1.daemon = True
+        self.th1.start()
         time.sleep(5)
         self.reading = False
-        self.thread1.join()
+        self.th1.join()
         
 
     #def __apply_decision(self):
