@@ -26,6 +26,10 @@ SECRET_KEY = 'django-insecure-(9+%84n)p8r_c-6pg(6vpb_sx$#*4x76iw@1hs)wjvzt-m+p(#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# insert these lines after the definition of BASE_DIR
+BACKEND_DIR = BASE_DIR  # rename variable for clarity
+FRONTEND_DIR = BASE_DIR.parent / 'trottoir-status'
+
 ALLOWED_HOSTS = []
 
 
@@ -39,9 +43,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'myapp',
     'corsheaders',
     'rest_framework',
+    'myapp',
+    'whitenoise.runserver_nostatic',
 ]
 
 MIDDLEWARE = [
@@ -52,7 +57,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',    
+    'corsheaders.middleware.CorsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',    
 ]
 
 ROOT_URLCONF = 'backend.urls'
@@ -60,7 +66,7 @@ ROOT_URLCONF = 'backend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,"trottoir-status/build")],
+        'DIRS': [FRONTEND_DIR / 'build'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -74,6 +80,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'backend.wsgi.application'
+ASGI_APPLICATION = 'backend.routing.application'
 
 
 # Database
@@ -132,6 +139,13 @@ CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
 )
 
-STATICFILES_DIRS = [ 
-              os.path.join(BASE_DIR, 'trottoir-status/build/static'), 
-]
+STATICFILES_DIRS = [FRONTEND_DIR / 'build' / 'static']
+
+STATICFILES_STORAGE = (
+    'whitenoise.storage.CompressedManifestStaticFilesStorage')
+
+STATIC_ROOT = BACKEND_DIR / 'static'
+
+STATIC_URL = '/static/'  # already declared in the default settings
+
+WHITENOISE_ROOT = FRONTEND_DIR / 'build' / 'root'

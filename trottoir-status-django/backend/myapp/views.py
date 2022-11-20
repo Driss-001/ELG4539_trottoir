@@ -1,16 +1,4 @@
-from django.shortcuts import render
-from rest_framework import viewsets
-from .serializer import MyappSerializer,PiStateSerializer
-from .models import Myapp,PiState
+from django.views.generic import TemplateView
 
-class MyappView(viewsets.ModelViewSet):
-    
-    serializer_class = MyappSerializer
-    queryset = Myapp.objects.all()
-
-class PiStateView(viewsets.ModelViewSet):
-
-    serializer_class = PiStateSerializer
-    queryset = PiState.objects.all()
-
+catchall = TemplateView.as_view(template_name='index.html')
 # Create your views here.
