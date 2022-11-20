@@ -30,7 +30,7 @@ DEBUG = True
 BACKEND_DIR = BASE_DIR  # rename variable for clarity
 FRONTEND_DIR = BASE_DIR.parent / 'trottoir-status'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["localhost"]
 
 
 # Application definition

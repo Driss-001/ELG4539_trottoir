@@ -20,6 +20,8 @@ main{
   width: 200px;
   transition: all 0.5s;
 }
+
+
 .top_section{
   display: flex;
   align-items:center;
@@ -53,6 +55,8 @@ main{
 .icon, .link_text{
   font-size: 20px;
 }
+
+
 
 .App-logo {
   height: 25vmin;
