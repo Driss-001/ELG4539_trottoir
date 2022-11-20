@@ -53,22 +53,28 @@ const Status = () => {
     return (
         <>
             <h1> Status du trottoir </h1>
-            <span className  ='empty-space'>{""}</span> 
+            <div class="cards">
+            <div class="card">
             {road_state.map((item)=> item.value === rnd1 ? (
-            <div>
-            <figcaption>{item.texte} </figcaption>
-             <img src={item.image} width={400} height={400}  alt=""/>
+            <div class = "info">
+            <h3>{item.texte} </h3>
+             <img src={item.image} alt=""/>
              </div>
              ):null
-                )}     
-                <span className='empty-space'>{""}</span>
+                )} 
+              </div> 
+              </div>
+            <div class="cards">  
+            <div class="card">        
                  {lamp_state.map((item)=> item.value === rnd2 ? (
-            <div>
-            <figcaption>{item.texte} </figcaption>
-             <img src={item.image} width={400} height={400}  alt=""/>
+            <div class = "info">
+            <h3>{item.texte} </h3>
+             <img src={item.image}  alt=""/>
              </div>
              ):null
                 )}
+            </div>
+            </div>     
             
     </>
     );
