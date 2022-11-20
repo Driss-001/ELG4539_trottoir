@@ -70,7 +70,8 @@ void loop() {
   data[0] = IRarray;
   data[1] = scale.get_units();
   Serial.println(data[0]);
-  Serial.println(data[1+'\n']);
+  Serial.println(data[1]);
+  Serial.println("\n");
   send_array(data);
   delay(1);
 
