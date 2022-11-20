@@ -69,7 +69,8 @@ void loop() {
   uint8_t IRarray= val1 + 2*val2 + 4*val3 + 8*val4 + 16*val5;
   data[0] = IRarray;
   data[1] = scale.get_units();
-  
+  Serial.println(data[0]);
+  Serial.println(data[1+'\n']);
   send_array(data);
   delay(1);
 

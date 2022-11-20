@@ -10,7 +10,8 @@ ports = list(serial.tools.list_ports.comports())
 for p in ports:
     print(p)
     if "ttyAMA0" in p.description:
-        com1  =p.name
+        com1  = p.device
+
 
 class Decision_master:
 
@@ -40,7 +41,7 @@ class Decision_master:
     
     def __serial_measurement(self):
         if self.com != None:
-            ser = serial.erial(self.com)
+            ser = serial.Serial(self.com)
             ser.baudrate = self.baudrate
             while self.reading:
                 self.raw_data = ser.readline().decode(("ascii"))
