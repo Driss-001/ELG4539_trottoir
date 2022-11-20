@@ -44,7 +44,7 @@ void send_array(float msg[]) {
 }
   
 void setup() {
-  Serial.begin(76800);
+  Serial.begin(115200);
   Serial.flush();
   pinMode(ir1IN, INPUT);      // 
   pinMode(ir2IN, INPUT);     // 
