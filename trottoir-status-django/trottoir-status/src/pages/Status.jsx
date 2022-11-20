@@ -40,7 +40,7 @@ const Status = () => {
           },
          {   value : 1,
              image : lamp_on,
-             texte: "figcaption>Le lampadaire est allumé"
+             texte: "Le lampadaire est allumé"
          }
 
     ]   
@@ -52,7 +52,7 @@ const Status = () => {
 
     return (
         <>
-            <h1> Status du trottoir rnd1 = {rnd1},rnd2 = {rnd2},</h1>
+            <h1> Status du trottoir </h1>
             <span className  ='empty-space'>{""}</span> 
             {road_state.map((item)=> item.value === rnd1 ? (
             <div>
