@@ -16,7 +16,7 @@ for p in ports:
 class Decision_master:
 
     def __init__(self,com):
-        self.baudrate = 76800
+        self.baudrate = 115200
         self.com = com
         #Constants
         #15cm between IR sensors
