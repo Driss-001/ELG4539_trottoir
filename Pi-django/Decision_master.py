@@ -40,21 +40,25 @@ class Decision_master:
 
     
     def __serial_measurement(self):
-        if self.com != None:
-            ser = serial.Serial(self.com)
-            ser.baudrate = self.baudrate
-            while self.reading:
-                self.raw_data = ser.readline().decode(("ascii"))
-                print(self.raw_data)
-                time.sleep(1e-3)
+        
+        ser = serial.Serial(self.com)
+        ser.baudrate = self.baudrate
+        while self.reading == True:
+            print('reading...')
+            self.raw_data = ser.readline().decode(("ascii"))
+            print(f"reading : {self.raw_data}")
+            time.sleep(1e-3)
 
     def Reading_thread(self):
         self.th1 = threading.Thread(target = self.__serial_measurement)
         self.th1.daemon = True
         self.th1.start()
-        time.sleep(5)
+        for i in range(0,10):
+            print(f"time is {i} s")
+            time.sleep(1)
         self.reading = False
-        self.th1.join()
+        
+        #self.th1.join()
         
 
     #def __apply_decision(self):
@@ -62,5 +66,6 @@ class Decision_master:
 if __name__ == "__main__":
     D1 = Decision_master(com1)
     D1.Reading_thread()
+        
 
 
