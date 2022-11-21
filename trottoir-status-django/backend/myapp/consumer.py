@@ -3,8 +3,9 @@ import json
 
 
 class RoadState(AsyncWebsocketConsumer):
-    async def connect(self):
+    async def connect(self):    
 
+        print(self.scope)    
         await self.connect()   
 
     async def disconnect(self, close_code):
