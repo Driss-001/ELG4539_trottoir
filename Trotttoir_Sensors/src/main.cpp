@@ -44,7 +44,7 @@ void send_array(float msg[]) {
 }
   
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(76800);
   Serial.flush();
   pinMode(ir1IN, INPUT);      // 
   pinMode(ir2IN, INPUT);     // 
@@ -69,11 +69,10 @@ void loop() {
   uint8_t IRarray= val1 + 2*val2 + 4*val3 + 8*val4 + 16*val5;
   data[0] = IRarray;
   data[1] = scale.get_units();
-  Serial.println(data[0]);
-  Serial.println(data[1]);
-  Serial.println("\n");
+  //Serial.println(data[0]);
+  //Serial.println(data[2]);;
   send_array(data);
   delay(1);
-
+  Serial.flush();
   // put your main code here, to run repeatedly:
 }

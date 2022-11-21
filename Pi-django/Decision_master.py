@@ -1,6 +1,7 @@
-#!/usr/bin/python3
+
 import math  as mt 
 import random as rd
+import numpy as np
 import serial , re ,time,sys ,threading ,serial.tools.list_ports
 import time
 
@@ -9,14 +10,14 @@ ports = list(serial.tools.list_ports.comports())
 
 for p in ports:
     print(p)
-    if "ttyAMA0" in p.description:
+    if "ttyAMA0"  or "CH340" in p.description:
         com1  = p.device
 
 
 class Decision_master:
 
     def __init__(self,com):
-        self.baudrate = 115200
+        self.baudrate = 19200
         self.com = com
         #Constants
         #15cm between IR sensors
@@ -44,22 +45,40 @@ class Decision_master:
         ser = serial.Serial(self.com)
         ser.baudrate = self.baudrate
         while self.reading == True:
-            print('reading...')
-            self.raw_data = ser.readline().decode(("ascii"))
-            print(f"reading : {self.raw_data}")
-            time.sleep(1e-3)
+            #print('reading...')
+            raw_data = ser.readline().decode("ascii")
+            self.data= [float(val) for val in raw_data.split(';')]
+            self.data = np.array(self.data)
+            Ir_position =self._Ir_process(self.data[0])
+            print(f"raw data:{raw_data} \n processed data : {self.data}")
+            print(f"first Ir sensor : {Ir_position[0]} ,second Ir sensor: {Ir_position[1]} ")
+            time.sleep(1000e-3)
 
     def Reading_thread(self):
         self.th1 = threading.Thread(target = self.__serial_measurement)
         self.th1.daemon = True
         self.th1.start()
-        for i in range(0,10):
-            print(f"time is {i} s")
+        for i in range(0,60):
+            #print(f"time is {i} s")
             time.sleep(1)
         self.reading = False
         
         #self.th1.join()
         
+
+    def _Ir_process(self,Ir_int):
+
+        pos = lambda x: mt.log2(x)
+        if Ir_int>1:
+            i = mt.trunc(pos(Ir_int))
+        else:
+            i=0
+        if (Ir_int-2**i)<1:
+            j = 0
+        else:
+            j=mt.trunc(pos(Ir_int-2**i))
+
+        return np.array([i,j])    
 
     #def __apply_decision(self):
 
