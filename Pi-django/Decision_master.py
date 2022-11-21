@@ -66,7 +66,7 @@ class Decision_master:
         self.th1.daemon = True
         self.th1.start()
         for i in range(0,round(60*self.time)):
-            print(f"current speed is {self.current_speed} m/s, current weight is {self.current_weight} kg s")
+            print(f"current speed is {self.current_speed} m/s, current weight is {self.current_weight*10**-3} kg s")
             time.sleep(1)
         self.reading = False
         
