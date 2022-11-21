@@ -10,6 +10,10 @@ import lamp_off from '../street-light-lamp-photo-6.jpg';
 
 
 const Status = () => {
+
+    function refreshPage() {
+        window.location.reload(false);
+      }
     
     function randomNumber(min, max) { 
         min = Math.ceil(min);
@@ -75,7 +79,9 @@ const Status = () => {
                 )}
             </div>
             </div>     
-            
+            <>{setTimeout(() => {
+                    refreshPage()
+                            }, 10000)}</>   
     </>
     );
 };
