@@ -53,7 +53,7 @@ void setup() {
   pinMode(ir5IN, INPUT);
   
   scale.begin(LOADCELL_DOUT_PIN, LOADCELL_SCK_PIN);
-  scale.set_scale(105.73399);
+  scale.set_scale(103.0913705583756);
   scale.tare();               // reset the scale to 0
 
   // put your setup code here, to run once:

@@ -4,13 +4,16 @@ import ped from '../pedestrian.webp';
 import car from '../car-driving-animated-gif-2.gif'
 import lamp_on from '../street-light-lamp-4.jpg';
 import lamp_off from '../street-light-lamp-photo-6.jpg';
-
+import useWebSocket from 'react-use-websocket';
 
 
 
 
 const Status = () => {
-
+    
+    const socketUrl = 'wss://localhost:8000/ws/TrottoirState/';
+    
+ 
     function refreshPage() {
         window.location.reload(false);
       }
@@ -56,6 +59,9 @@ const Status = () => {
 
     return (
         <>
+        <script>
+          socket.onMeass  
+        </script>
             <h1> Status du trottoir </h1>
             <div class="cards">
             <div class="card">
@@ -85,5 +91,6 @@ const Status = () => {
     </>
     );
 };
+
 
 export default Status;

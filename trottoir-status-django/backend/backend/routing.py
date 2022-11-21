@@ -7,7 +7,7 @@ from myapp import consumer
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "backend.settings")
 
 websocket_urlPattern = [ 
-    path('ws/RoadState',consumer.RoadState),
+    path('ws/TrottoirState',consumer.TrottoirState),
     path('ws/TimeSeries'),
 ]
 

@@ -1,20 +1,38 @@
 from channels.generic.websocket import AsyncJsonWebsocketConsumer
 
 
-class RoadState(AsyncJsonWebsocketConsumer):
+class TrottoirState(AsyncJsonWebsocketConsumer):
+    
     async def connect(self):    
-
-        print(self.scope)    
+        self.groupname='Roadstate'
+        await self.channel_layer.group_add(
+            self.groupname,
+            self.channel_name,
+        )   
         await self.accept()  
 
     async def disconnect(self, close_code):
 
-        await self.disconnect()
+       await self.websocket_disconnect(
+            self.groupname,
+            self.channel_name
+        )
 
-    async def receive(self, state_data = None, text_data = None):
+    async def receive(self, state_data,**kwargs):
 
-        if text_data == 'PING':
-                 await self.send('PONG')
+        data = self.decode_json(state_data)
+        RoadState = data["RoadState"]
+        LampState = data["LampState"]
         
+        await self.send_json(
+            {
+                'type':'deprocessing',
+                'RoadState': RoadState,
+                'LampState': LampState
+            }
+        )
+
         print(">>>>",state_data)
-        pass       
+        pass   
+    
+     

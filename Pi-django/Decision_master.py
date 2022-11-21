@@ -16,7 +16,8 @@ for p in ports:
 
 class Decision_master:
 
-    def __init__(self,com):
+    def __init__(self,com,time = 1):
+        self.time = time
         self.baudrate = 19200
         self.com = com
         #Constants
@@ -50,21 +51,27 @@ class Decision_master:
             self.data= [float(val) for val in raw_data.split(';')]
             self.data = np.array(self.data)
             Ir_position =self._Ir_process(self.data[0])
-            print(f"raw data:{raw_data} \n processed data : {self.data}")
-            print(f"first Ir sensor : {Ir_position[0]} ,second Ir sensor: {Ir_position[1]} ")
+            #print(f"raw data:{raw_data} \n processed data : {self.data}")
+            #print(f"first Ir sensor : {Ir_position[0]} ,second Ir sensor: {Ir_position[1]} ")
+            self.current_i, self.current_j = Ir_position
+            self.current_time = time.time()
+            self.current_weight = self.data[1]
             time.sleep(2e-3)
+            self.previous_i = self.current_i
+            self.previous_time = self.current_time
+            self.current_speed = self._Speed_Eval()
 
     def Reading_thread(self):
         self.th1 = threading.Thread(target = self.__serial_measurement)
         self.th1.daemon = True
         self.th1.start()
-        for i in range(0,60):
-            #print(f"time is {i} s")
+        for i in range(0,round(60*self.time)):
+            print(f"current speed is {self.current_speed} m/s, current weight is {self.current_weight} kg s")
             time.sleep(1)
         self.reading = False
         
         #self.th1.join()
-        
+
 
     def _Ir_process(self,Ir_int):
 
@@ -76,9 +83,19 @@ class Decision_master:
         if (Ir_int-2**i)<1:
             j = 0
         else:
-            j=mt.trunc(pos(Ir_int-2**i))
+            j=mt.trunc(pos(Ir_int-2**i))    
 
         return np.array([i,j])    
+
+    def _Speed_Eval(self):
+        if self.current_i > self.previous_i:
+            v = self.delta_d*abs(self.current_i-self.previous_i)/(self.current_time-self.previous_time)
+        else:
+            v=0
+        return v        
+        
+
+
 
     #def __apply_decision(self):
 
