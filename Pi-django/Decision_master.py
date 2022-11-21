@@ -52,7 +52,7 @@ class Decision_master:
             Ir_position =self._Ir_process(self.data[0])
             print(f"raw data:{raw_data} \n processed data : {self.data}")
             print(f"first Ir sensor : {Ir_position[0]} ,second Ir sensor: {Ir_position[1]} ")
-            time.sleep(1000e-3)
+            time.sleep(2e-3)
 
     def Reading_thread(self):
         self.th1 = threading.Thread(target = self.__serial_measurement)
