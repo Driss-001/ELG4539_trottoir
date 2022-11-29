@@ -16,7 +16,7 @@ class MyappSerializer(serializers.ModelSerializer):
 
 class PiStateSerializer(serializers.ModelSerializer):
     class Meta:
-        model - PiState
+        model = PiState
         fields =[
             'RoadState',
             'LampState',

@@ -3,7 +3,7 @@ import math  as mt
 import random as rd
 import numpy as np
 import serial , re ,time,sys ,threading ,serial.tools.list_ports
-import json
+import time,json,urllib3
 
 
 ports = list(serial.tools.list_ports.comports())
@@ -26,8 +26,8 @@ class Decision_master:
         self.reading = True
         self.delta_d = 15e-2
         #decision  lists for quick access
-        self.lamp_modes = ["off","on"]
-        self.road_states = ['None',"pedestrian","Car","Vélo"]
+        self.lamp_modes = [0,1]
+        self.road_states = [0,1,2,3]
         #Initialisation
         self.current_lamp_mode = self.lamp_modes[0]
         self.current_road_state = self.road_states[0]
@@ -122,6 +122,7 @@ class Decision_master:
                 self.current_lamp_mode = self.lamp_modes[0]
                 self.current_road_state = self.road_states[0]
                 self._tojson()
+                time.sleep(1)
                                 
 
     def _tojson(self):
@@ -129,6 +130,8 @@ class Decision_master:
         dictionary = {
             "RoadState": self.current_road_state,
             "LampState": self.current_lamp_mode,
+            "weigt(g)": self.current_weight,
+            "speed(m/s)": self.current_speed,
     
                     }
 
@@ -136,11 +139,13 @@ class Decision_master:
 
         with open("state.json", "w") as outfile:
             outfile.write(json_object)
+
+        #print("json file written")    
             
     #def __apply_decision(self):
 
 if __name__ == "__main__":
-    D1 = Decision_master(com1,time=5)
+    D1 = Decision_master(com1,time=10)
     D1.Reading_thread()
         
 
