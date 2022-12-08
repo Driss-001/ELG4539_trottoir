@@ -131,10 +131,28 @@ la lecture deviendra 0 ou FALSE.
     \label{fig4}
 \end{figure} 
 
+Le code va calculer la vitesse  à partir de la position. Pour décoder la position à partir de N on va utiliser le lgarithme base 2 en combinaison de la fonction partie entière. Les cpateurs infrarouges
+sont espacées de d = 15cm et donc la vitesse revient à diviser la différence de position multipliée par d, N étant lentier lu par1:
+
+\begin{equation}\label{eq-2}
+    \left\{\begin{aligned}
+        P =  \lfloor{log_2(N)}\rfloor \\
+        v = \frac{dP}{dt} = \frac{\Delta P \cdot d}{\Delta t}
+    \end{aligned} \right. 
+\end{equation}
+
+Le module python time utilisé dans le fil parallèle permet de traquer le temps et effectuer ces mesures.\\
+L'état du système est stocké dans un format json prêt à petre envoyé dans une requête https.
 
 \subsubsection{Déploiment Django}
 
+Le backend django permet le déploiment d'un serveur capable de recevoir les requête https, le frontend est un tableau de bord écrits en React javascript.
 
+\begin{figure}[htbp]
+    \centerline{\includegraphics[scale = 0.2]{react_dashboard.PNG}}
+    \caption{Tableau de bord react}
+    \label{fig5}
+\end{figure} 
 
 \section{Mise en Oeuvre}
 
@@ -144,7 +162,7 @@ Le travail effectué lors de ce projet est fonctionne comme une preuve de concep
     \item Problème de synchronisation de la baudrate entre émetteur et lecteur prévenant l'utilisation du Raspberry Pi 4 comme ordinateur miniature
     \item Problèmes de synchronisation au niveau de la lecture des données sérialisées et mise à jour de l'état du systèem en format Json
     \item La platforme de réception de requête https au niveau du backend Django est incomplète.
-    \item Le dashboard n'a pas encore de fonction callback capable de raffraichir les données en temps réel(1kHZ)  
+    \item Le dashboard n'a pas encore de fonction callback capable de raffraichir les données en temps réel(1kHZ) sans recharger la page entière  
 \end{itemize}
 
 \section{Conclusion}

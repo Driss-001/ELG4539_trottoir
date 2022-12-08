@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.12.6)  8 DEC 2022 01:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.12.6)  8 DEC 2022 10:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -637,38 +637,42 @@ File: Trottoir_Flowchart.drawio.png Graphic file (type png)
 Package pdftex.def Info: Trottoir_Flowchart.drawio.png  used on input line 129.
 (pdftex.def)             Requested size: 225.24323pt x 280.65067pt.
  [2 <./hardware2.png> <./Trottoir_Flowchart_arduino.drawio.png> <./Matrice_décisions.PNG> <./Trottoir_Flowchart.drawio.png>]
-Underfull \hbox (badness 3240) in paragraph at lines 144--145
+<react_dashboard.PNG, id=99, 1082.8455pt x 361.35pt>
+File: react_dashboard.PNG Graphic file (type png)
+<use react_dashboard.PNG>
+Package pdftex.def Info: react_dashboard.PNG  used on input line 152.
+(pdftex.def)             Requested size: 216.56526pt x 72.2687pt.
+
+Underfull \hbox (badness 3240) in paragraph at lines 162--163
 []\OT1/ptm/m/n/10 Probl[]eme de syn-chro-ni-sa-tion de la bau-drate en-tre
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 \OT1/ptm/m/n/8 Et Lutte Con-tre Les Change-ments Cli-ma-tiques, Qu[]ebec,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 \OT1/ptm/m/n/8 https://www.environnement.gouv.qc.ca/jeunesse/chronique/2005/0503-
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 165--166
+Underfull \hbox (badness 6396) in paragraph at lines 183--184
 []\OT1/ptm/m/n/8 \How HC-SR501 PIR Sen-sor Works and How To In-ter-face
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 \OT1/ptm/m/n/8 It With Ar-duino," Last Minute En-gi-neers, Jul. 03, 2018.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 \OT1/ptm/m/n/8 https://lastminuteengineers.com/pir-sensor-arduino-tutorial/ (ac-cessed
  []
 
-[3
-
-] (./Final_Report.aux)
+[3 <./react_dashboard.PNG>] (./Final_Report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -676,18 +680,18 @@ Package rerunfilecheck Info: File `Final_Report.out' has not changed.
 (rerunfilecheck)             Checksum: 5CBD1EDB269A43EF2AA6DB605730EF55;1323.
  ) 
 Here is how much of TeX's memory you used:
- 21420 strings out of 478353
- 404403 string characters out of 5852101
- 682624 words of memory out of 5000000
- 39150 multiletter control sequences out of 15000+600000
+ 21431 strings out of 478353
+ 404599 string characters out of 5852101
+ 682705 words of memory out of 5000000
+ 39158 multiletter control sequences out of 15000+600000
  445815 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,9n,94p,526b,822s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Final_Report.pdf (3 pages, 656554 bytes).
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Final_Report.pdf (3 pages, 700818 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 169 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

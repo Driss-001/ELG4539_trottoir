@@ -1,12 +1,12 @@
 # Fdb version 3
-["pdflatex"] 1670482122 "c:/Users/D-GAMING-MACHINE/Documents/U-Ottawa/Modules/ELG 4539 Electronique III/Projet/ELG4539_trottoir/Report/Final_Report.tex" "Final_Report.pdf" "Final_Report" 1670482124
-  "Final_Report.aux" 1670482124 3313 983fed2c870492f912c15f108a3ebd63 "pdflatex"
-  "Final_Report.out" 1670482124 1323 5cbd1edb269a43ef2aa6db605730ef55 "pdflatex"
-  "Final_Report.tex" 1670482119 10878 ffc7727ee3c16a365bc488843e844861 ""
+["pdflatex"] 1670513795 "c:/Users/D-GAMING-MACHINE/Documents/U-Ottawa/Modules/ELG 4539 Electronique III/Projet/ELG4539_trottoir/Report/Final_Report.tex" "Final_Report.pdf" "Final_Report" 1670513797
+  "Final_Report.aux" 1670513797 3557 3d11a83135e468428312cd1907c78298 "pdflatex"
+  "Final_Report.out" 1670513797 1323 5cbd1edb269a43ef2aa6db605730ef55 "pdflatex"
+  "Final_Report.tex" 1670513794 11996 4fac4b0808ac13f8bfa28861ac74684e ""
   "IEEEtran.cls" 1440650924 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
   "Trottoir_Flowchart.drawio.png" 1670465212 645739 02a031c7433d8eb32188f31d7acb16e9 ""
   "Trottoir_Flowchart_arduino.drawio.png" 1670470245 609853 4748ef41dcff7e4554dc91e9bbd2e8bc ""
-  "c:/Users/D-GAMING-MACHINE/Documents/U-Ottawa/Modules/ELG 4539 Electronique III/Projet/ELG4539_trottoir/Report/Final_Report.tex" 1670482119 10878 ffc7727ee3c16a365bc488843e844861 ""
+  "c:/Users/D-GAMING-MACHINE/Documents/U-Ottawa/Modules/ELG 4539 Electronique III/Projet/ELG4539_trottoir/Report/Final_Report.tex" 1670513794 11996 4fac4b0808ac13f8bfa28861ac74684e ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1638764409 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1638764924 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1638768048 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -40,6 +40,7 @@
   "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1638763143 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1638763143 36281 c355509802a035cadc5f15869451dcee ""
   "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1638763143 35752 024fb6c41858982481f6968b5fc26508 ""
+  "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1638763143 32762 7fee39e011c23b3589931effd97b9702 ""
   "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1638763143 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1638763143 32716 08e384dc442464e7285e891af9f45947 ""
   "c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1638768048 44729 fea0975e20ec51c992338362f05f1146 ""
@@ -180,6 +181,7 @@
   "c:/texlive/2021/texmf.cnf" 1638768720 713 614551405fc44b98efbf516466e3c909 ""
   "hardware1.png" 1670459683 153138 d3ab3c3c088516f0363cec287e0525bc ""
   "hardware2.png" 1670460756 30344 603bf94091a6f8261b494f68de6419a0 ""
+  "react_dashboard.PNG" 1670513583 37406 6143db100eed138c926ec3d750f72623 ""
   (generated)
   "Final_Report.aux"
   "Final_Report.log"
