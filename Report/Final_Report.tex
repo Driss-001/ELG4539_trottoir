@@ -58,13 +58,31 @@ lumière projetée vers le ciel qui obstrue l'observation des étoiles \cite{b1}
 
 \subsection{Conception Matérielle}
 
-The IEEEtran class file is used to format your paper and style the text. All margins, 
-column widths, line spaces, and text fonts are prescribed; please do not 
-alter them. You may note peculiarities. For example, the head margin
-measures proportionately more than is customary. This measurement 
-and others are deliberate, using specifications that anticipate your paper 
-as one part of the entire proceedings, and not as an independent document. 
-Please do not revise any of the current designations.
+Pour le hardware du projet, nous avons décidé de sélectionner deux types de capteurs : le HX711 et le SR-501. Le capteur de tension HX711 est composé d’un Wheatstone bridge, ce circuit utilise 4 résistances arrangées comme dans la figure ci-dessous.
+Le voltage de sortie mesurée varie selon la tension mécanique appliquée sur le membre du capteur. Il suffit par la suite qu’à calibrer ce voltage de sortie à l’aide un poids ou une force connue. 
+Le capteur a une limite de poids de 20 kilogrammes, mais dans le cas des simulations pour ce projet, ce n’est pas un problème. 
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics{hardware1.png}}
+    \caption{Capteur de Poids HX711.\cite{b3}}
+    \label{fig1}
+\end{figure} 
+
+Quant au capteurs SR-501, ils fonctionnent en détectant la radiation infra-rouge et en donnant une valeur de sorite binaire, soit 0 ou 1, dépendamment du rapport entre la radiation détectée et un certain seuil. Ces capteurs ont une limitation sur leur temps d’activation. 
+Lorsque la sortie d’un capteur passe de 1 à 0, elle sera prise en mode LOW pour 2 secondes. 
+Cela veut dire que la sortie du capteur sera fixe à 0 pour deux secondes peu importe la radiation mesurée. Ceci prouve être une contrainte pour la conception des cas de test.\\
+
+Dans notre cas, nous avons 5 capteurs infrarouges et un capteur de poids. 
+Le schéma ci-dessous représente le raccordement des capteurs infrarouges à un Arduino. 
+Le logiciel utiliser pour ce schéma ne comprenait pas le capteur HX711 dans sa base de données et l’Arduino Nano non plus. Le HX711 as 4 pins, comme vu dans la figure plus haute, où une pin est pour l’alimentation 5 volts, une autre pour la terre, une troisième pour la pin d’entré digitale du Arduino et la dernière pour l’horloge. 
+\cite{b4}
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics{hardware2.png}}
+    \caption{Intégration de capteurs IR Hc-Sr501.\cite{b5}}
+    \label{fig2}
+\end{figure} 
+
 
 \subsection{Conception Logicielle}
 
@@ -230,7 +248,11 @@ with units. In the example, write ``Magnetization (A/m)'' or ``Magnetization
 quantities and units. For example, write ``Temperature (K)'', not 
 ``Temperature/K''.
 
-\section*{Acknowledgment}
+\section{Discussion}
+
+\section{Conclusion}
+
+\section*{Reconnaissance}
 
 The preferred spelling of the word ``acknowledgment'' in America is without 
 an ``e'' after the ``g''. Avoid the stilted expression ``one of us (R. B. 
@@ -258,12 +280,14 @@ element symbols.
 For papers published in translation journals, please give the English 
 citation first, followed by the original foreign-language citation \cite{b6}.
 
+
+
 \begin{thebibliography}{00}
-\bibitem{b1} G. Eason, B. Noble, and I. N. Sneddon, ``On certain integrals of Lipschitz-Hankel type involving products of Bessel functions,'' Phil. Trans. Roy. Soc. London, vol. A247, pp. 529--551, April 1955.
-\bibitem{b2} J. Clerk Maxwell, A Treatise on Electricity and Magnetism, 3rd ed., vol. 2. Oxford: Clarendon, 1892, pp.68--73.
-\bibitem{b3} I. S. Jacobs and C. P. Bean, ``Fine particles, thin films and exchange anisotropy,'' in Magnetism, vol. III, G. T. Rado and H. Suhl, Eds. New York: Academic, 1963, pp. 271--350.
-\bibitem{b4} K. Elissa, ``Title of paper if known,'' unpublished.
-\bibitem{b5} R. Nicole, ``Title of paper with only first word capitalized,'' J. Name Stand. Abbrev., in press.
+\bibitem{b1} “La Pollution Lumineuse.” Les Avantures De Rafale, Environnement Et Lutte Contre Les Changements Climatiques, Québec, https://www.environnement.gouv.qc.ca/jeunesse/chronique/2005/0503-causes.htm. 
+\bibitem{b2} Zappi, Piero, et al. “Tracking Motion Direction and Distance with Pyroelectric IR Sensors.” IEEE Sensors Journal, vol. 10, no. 9, Sept. 2010, pp. 1486–1494., https://doi.org/10.1109/jsen.2009.2039792.
+\bibitem{b3} "4-Wire Load Cell (1/5/10/20/200kg) with HX711 and Arduino - Circuit Journal". https://circuitjournal.com/four-wire-load-cell-with-HX711 (consulté le 8 octobre 2022).
+\bibitem{b4} “How HC-SR501 PIR Sensor Works and How To Interface It With Arduino,” Last Minute Engineers, Jul. 03, 2018. https://lastminuteengineers.com/pir-sensor-arduino-tutorial/ (accessed Dec. 07, 2022).
+\bibitem{b5} "Infrared Sensors Overview: Types, Functioning and Use Cases | Kisi". https://www.getkisi.com/guides/infrared-sensors (consulté le 10 octobre 2022).
 \bibitem{b6} Y. Yorozu, M. Hirano, K. Oka, and Y. Tagawa, ``Electron spectroscopy studies on magneto-optical media and plastic substrate interface,'' IEEE Transl. J. Magn. Japan, vol. 2, pp. 740--741, August 1987 [Digests 9th Annual Conf. Magnetics Japan, p. 301, 1982].
 \bibitem{b7} M. Young, The Technical Writer's Handbook. Mill Valley, CA: University Science, 1989.
 \end{thebibliography}

@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1670434008 "c:/Users/D-GAMING-MACHINE/Documents/U-Ottawa/Modules/ELG 4539 Electronique III/Projet/ELG4539_trottoir/Report/Final_Report.tex" "Final_Report.pdf" "Final_Report" 1670434009
-  "Final_Report.aux" 1670434009 2451 085c00dc9fb7fddeba282cfc0d8381c6 "pdflatex"
-  "Final_Report.tex" 1670434006 15888 665470699e623e239449232536f058d7 ""
+["pdflatex"] 1670461671 "c:/Users/D-GAMING-MACHINE/Documents/U-Ottawa/Modules/ELG 4539 Electronique III/Projet/ELG4539_trottoir/Report/Final_Report.tex" "Final_Report.pdf" "Final_Report" 1670461672
+  "Final_Report.aux" 1670461672 3026 e1b61efec3e2907a2f6145323fa738dd "pdflatex"
+  "Final_Report.tex" 1670461670 17732 4f3027cfd62838d5fa96aa059edd533a ""
   "IEEEtran.cls" 1440650924 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "c:/Users/D-GAMING-MACHINE/Documents/U-Ottawa/Modules/ELG 4539 Electronique III/Projet/ELG4539_trottoir/Report/Final_Report.tex" 1670434006 15888 665470699e623e239449232536f058d7 ""
+  "c:/Users/D-GAMING-MACHINE/Documents/U-Ottawa/Modules/ELG 4539 Electronique III/Projet/ELG4539_trottoir/Report/Final_Report.tex" 1670461670 17732 4f3027cfd62838d5fa96aa059edd533a ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1638764409 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1638764924 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1638764029 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -85,6 +85,8 @@
   "c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1638768841 2820014 8a6c3f5079df5e8e38ddeeeeaae6b652 ""
   "c:/texlive/2021/texmf.cnf" 1638768720 713 614551405fc44b98efbf516466e3c909 ""
   "fig1.png" 1571317972 4535 0e284ca354e1b5c77378d3dfdb543874 ""
+  "hardware1.png" 1670459683 153138 d3ab3c3c088516f0363cec287e0525bc ""
+  "hardware2.png" 1670460756 30344 603bf94091a6f8261b494f68de6419a0 ""
   (generated)
   "Final_Report.aux"
   "Final_Report.log"
