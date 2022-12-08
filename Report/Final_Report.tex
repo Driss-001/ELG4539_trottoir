@@ -102,12 +102,13 @@ téléverser le code C++ écrtit dans le fichier "main.cpp". Ce fichier prend en
 \end{figure} 
 
 Pendant l'execution de la boucle principale l'arduino enverra une chaîne de dimension 2 et contenu 8bits , une flottante et un entier. La flottante est le poids capté sur le trottoir et l'entier est un encodage des position
-activées de la chaîne de capteur infrarouge. Le plus simple format pour encoder l'entier est l'encodage binaire, cela est fait en multipliant la valeur des capteurs par une la puissande de 2 de leur position:
+activées de la chaîne de capteur infrarouge. Le plus simple format pour encoder l'entier est l'encodage binaire, cela est fait en multipliant la valeur des capteurs par une la puissande de 2 de leur position, pour 
+5 capteurs en commençant à 0:
 
 \begin{equation}\label{eq-1}
     \left\{\begin{aligned}
         V_i \in \{0,1\} \\
-        N = \sum(V_i\cdot 2^i)
+        N = \sum_{i=0}^{4}(V_i\cdot 2^i)
     \end{aligned} \right. 
 \end{equation}
 Cette encodage à l'avantage d'ajouter l'information de la position si la route envisagée est à sens unique et on assume un mouvement dans une direction. L'entier N est la deuxième entrée de la chaîne binare de 
@@ -126,16 +127,17 @@ définir l'état et l'envoyer à la même vitesse que l'on lit les valeurs des c
 la lecture deviendra 0 ou FALSE.
 
 \begin{figure}[htbp]
-    \centerline{\includegraphics[scale = 0.3]{Trottoir_Flowchart.drawio.png}}
+    \centerline{\includegraphics[scale = 0.18]{Trottoir_Flowchart.drawio.png}}
     \caption{Organigramme du code Python}
-    \label{fig4}
+    \label{fig5}
 \end{figure} 
 
 Le code va calculer la vitesse  à partir de la position. Pour décoder la position à partir de N on va utiliser le lgarithme base 2 en combinaison de la fonction partie entière. Les cpateurs infrarouges
-sont espacées de d = 15cm et donc la vitesse revient à diviser la différence de position multipliée par d, N étant lentier lu par1:
+sont espacées de d = 15cm et donc la vitesse revient à diviser la différence de position multipliée par d, N étant l'entier lu due l'arduino:
 
 \begin{equation}\label{eq-2}
     \left\{\begin{aligned}
+        N = \sum_{i=0}^{4}(V_i\cdot 2^i) \\
         P =  \lfloor{log_2(N)}\rfloor \\
         v = \frac{dP}{dt} = \frac{\Delta P \cdot d}{\Delta t}
     \end{aligned} \right. 
@@ -147,14 +149,18 @@ L'état du système est stocké dans un format json prêt à petre envoyé dans 
 \subsubsection{Déploiment Django}
 
 Le backend django permet le déploiment d'un serveur capable de recevoir les requête https, le frontend est un tableau de bord écrits en React javascript.
-
 \begin{figure}[htbp]
-    \centerline{\includegraphics[scale = 0.2]{react_dashboard.PNG}}
+    \centerline{\includegraphics[scale = 0.18]{react_dashboard.PNG}}
     \caption{Tableau de bord react}
-    \label{fig5}
+    \label{fig6}
 \end{figure} 
+\\
 
 \section{Mise en Oeuvre}
+Afin de compléter le projet le dévellopement Matériel et logiciel à été effectué en parallèle puis joint quand leur dévéloppement fut suffisament accomplis. Le schéma suivante
+est donc obtenu
+
+
 
 \section{Discussion}
 Le travail effectué lors de ce projet est fonctionne comme une preuve de concept pour le système d'éclairage de trottoir nocturne pour piétons mais plusieurs lacunes sont à noter:

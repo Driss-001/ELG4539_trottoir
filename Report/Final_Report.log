@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.12.6)  8 DEC 2022 10:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.12.6)  8 DEC 2022 11:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -522,11 +522,7 @@ File: pgfmoduleparser.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count314
 \l__pdf_internal_box=\box65
-) (./Final_Report.aux
-
-LaTeX Warning: Label `fig4' multiply defined.
-
-)
+) (./Final_Report.aux)
 \openout1 = `Final_Report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -629,66 +625,68 @@ Package pdftex.def Info: Trottoir_Flowchart_arduino.drawio.png  used on input li
 <Matrice_décisions.PNG, id=77, 953.06062pt x 359.3425pt>
 File: Matrice_décisions.PNG Graphic file (type png)
 <use Matrice_décisions.PNG>
-Package pdftex.def Info: Matrice_décisions.PNG  used on input line 119.
+Package pdftex.def Info: Matrice_décisions.PNG  used on input line 120.
 (pdftex.def)             Requested size: 285.9204pt x 107.80357pt.
 <Trottoir_Flowchart.drawio.png, id=78, 750.805pt x 935.495pt>
 File: Trottoir_Flowchart.drawio.png Graphic file (type png)
 <use Trottoir_Flowchart.drawio.png>
-Package pdftex.def Info: Trottoir_Flowchart.drawio.png  used on input line 129.
-(pdftex.def)             Requested size: 225.24323pt x 280.65067pt.
+Package pdftex.def Info: Trottoir_Flowchart.drawio.png  used on input line 130.
+(pdftex.def)             Requested size: 135.13907pt x 168.38182pt.
  [2 <./hardware2.png> <./Trottoir_Flowchart_arduino.drawio.png> <./Matrice_décisions.PNG> <./Trottoir_Flowchart.drawio.png>]
-<react_dashboard.PNG, id=99, 1082.8455pt x 361.35pt>
+<react_dashboard.PNG, id=100, 1082.8455pt x 361.35pt>
 File: react_dashboard.PNG Graphic file (type png)
 <use react_dashboard.PNG>
-Package pdftex.def Info: react_dashboard.PNG  used on input line 152.
-(pdftex.def)             Requested size: 216.56526pt x 72.2687pt.
+Package pdftex.def Info: react_dashboard.PNG  used on input line 153.
+(pdftex.def)             Requested size: 194.90378pt x 65.04019pt.
 
-Underfull \hbox (badness 3240) in paragraph at lines 162--163
+Underfull \hbox (badness 10000) in paragraph at lines 151--158
+
+ []
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 168--169
 []\OT1/ptm/m/n/10 Probl[]eme de syn-chro-ni-sa-tion de la bau-drate en-tre
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 \OT1/ptm/m/n/8 Et Lutte Con-tre Les Change-ments Cli-ma-tiques, Qu[]ebec,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 \OT1/ptm/m/n/8 https://www.environnement.gouv.qc.ca/jeunesse/chronique/2005/0503-
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 183--184
+Underfull \hbox (badness 6396) in paragraph at lines 189--190
 []\OT1/ptm/m/n/8 \How HC-SR501 PIR Sen-sor Works and How To In-ter-face
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 \OT1/ptm/m/n/8 It With Ar-duino," Last Minute En-gi-neers, Jul. 03, 2018.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 \OT1/ptm/m/n/8 https://lastminuteengineers.com/pir-sensor-arduino-tutorial/ (ac-cessed
  []
 
 [3 <./react_dashboard.PNG>] (./Final_Report.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `Final_Report.out' has not changed.
 (rerunfilecheck)             Checksum: 5CBD1EDB269A43EF2AA6DB605730EF55;1323.
  ) 
 Here is how much of TeX's memory you used:
- 21431 strings out of 478353
- 404599 string characters out of 5852101
- 682705 words of memory out of 5000000
- 39158 multiletter control sequences out of 15000+600000
+ 21432 strings out of 478353
+ 404605 string characters out of 5852101
+ 682716 words of memory out of 5000000
+ 39159 multiletter control sequences out of 15000+600000
  445815 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,9n,94p,526b,822s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Final_Report.pdf (3 pages, 700818 bytes).
+Output written on Final_Report.pdf (3 pages, 701583 bytes).
 PDF statistics:
  169 PDF objects out of 1000 (max. 8388607)
  126 compressed objects within 2 object streams
