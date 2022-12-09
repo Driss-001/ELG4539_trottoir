@@ -1,13 +1,14 @@
 # Fdb version 3
-["pdflatex"] 1670548160 "c:/Users/D-GAMING-MACHINE/Documents/U-Ottawa/Modules/ELG 4539 Electronique III/Projet/ELG4539_trottoir/Report/Final_Report.tex" "Final_Report.pdf" "Final_Report" 1670548163
-  "Final_Report.aux" 1670548163 4642 86664c9bc7da9f1b39852086f0aaf8a4 "pdflatex"
-  "Final_Report.out" 1670548163 1970 c770e88365a7343ecfa6625d33a82978 "pdflatex"
-  "Final_Report.tex" 1670548157 13872 dd437d67fb4d8498a18aef18e3faf737 ""
+["pdflatex"] 1670550778 "c:/Users/D-GAMING-MACHINE/Documents/U-Ottawa/Modules/ELG 4539 Electronique III/Projet/ELG4539_trottoir/Report/Final_Report.tex" "Final_Report.pdf" "Final_Report" 1670550781
+  "Final_Report.aux" 1670550781 4857 c237c64b8cf13f94ce86bc7c2faa845f "pdflatex"
+  "Final_Report.out" 1670550781 1970 c770e88365a7343ecfa6625d33a82978 "pdflatex"
+  "Final_Report.tex" 1670550777 15895 f958d3bd3178a1c8e33e61603a59240e ""
   "IEEEtran.cls" 1440650924 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
+  "IR_CONE.png" 1670550566 92271 847ccd8bce28ce964354e3a161c9cce3 ""
   "Trottoir_Diagram.drawio.png" 1670465248 1404796 7978c849d537ebb9da8dbfb7285b0c5d ""
   "Trottoir_Flowchart.drawio.png" 1670465212 645739 02a031c7433d8eb32188f31d7acb16e9 ""
   "Trottoir_Flowchart_arduino.drawio.png" 1670470245 609853 4748ef41dcff7e4554dc91e9bbd2e8bc ""
-  "c:/Users/D-GAMING-MACHINE/Documents/U-Ottawa/Modules/ELG 4539 Electronique III/Projet/ELG4539_trottoir/Report/Final_Report.tex" 1670548157 13872 dd437d67fb4d8498a18aef18e3faf737 ""
+  "c:/Users/D-GAMING-MACHINE/Documents/U-Ottawa/Modules/ELG 4539 Electronique III/Projet/ELG4539_trottoir/Report/Final_Report.tex" 1670550777 15895 f958d3bd3178a1c8e33e61603a59240e ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1638764409 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1638764924 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1638768048 2172 fd0c924230362ff848a33632ed45dc23 ""

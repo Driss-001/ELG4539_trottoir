@@ -216,9 +216,22 @@ Le travail effectué lors de ce projet est fonctionne comme une preuve de concep
     \item La platforme de réception de requête https au niveau du backend Django est incomplète.
     \item Le dashboard n'a pas encore de fonction callback capable de raffraichir les données en temps réel(1kHZ) sans recharger la page entière  
 \end{itemize}
+Une majeure limitation à laquelle nous avons fait face lors de l’implémentation des cas de test est le cône de détection des capteurs infrarouges.
+Les capteurs SR-501 ont un certain champ de vision qui a la forme d’un cône. Cela veut dire que la portée efficace des capteurs dépend de la distance entre ceux-ci. 
+Si les capteurs sont trop proches, leurs zones de détection sont superposées. Cela réduit la précision du array de capteurs quand ça vient à la dérivation de la position des occupants de la rue. Les capteurs peuvent détecter un objet avant qu’ils soient exactement en avant du capteur. Pour résoudre cela, il faudrait concevoir des corridors pour chaque capteur afin de limiter leur champ de vision, un peu comme œillères pour chevaux. D’un point de vue d’implémentation réelle, cette solution n’est pas aussi pratique que pour la simulation en laboratoire. 
+Toutefois, dans l’application réelle, la distance entre les capteurs serait plus grande donc la superposition des champs de vision est un problème moins important.  
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics[scale = 0.5]{IR_CONE.png}}
+    \caption{Cône de détection du capteur IR}
+    \label{fig8}
+\end{figure} 
 
 \section{Conclusion}
-
+Nous avons réussi à établir les fondations d'un système de contrôle d'illumnination de trottoir sélectif basé sur la vitesse et le poids d'un objet à sens unique.
+Les pronlèmes de détections proviennet surtout du chevauchage du cône de portée des capteurs Infrarouge cosé par leur proximité, ce qui réduit l'efficaité de leur implémentation à l'échelle
+de test présente. Le tableau de bord synchronisé avec la matrice de décision affiche bien l'état du système mais la continuité de la mise à jour du document json doit faire l'effet d'un suivi temporel pyroélectriques
+afin d'éviter les retards et une mise à jour effective de l'état du système sur le tableau de bord. Plus de dévellopement est nécessaire afin d'aboutir  à un format final.
 \section*{Reconnaissance}
 
 Nous voudrion remercier le professeur Mahmoud Youssef pour l'opportunité d'accomplir ce projet ainsi
