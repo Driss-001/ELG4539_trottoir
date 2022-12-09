@@ -158,7 +158,53 @@ Le backend django permet le déploiment d'un serveur capable de recevoir les req
 
 \section{Mise en Oeuvre}
 Afin de compléter le projet le dévellopement Matériel et logiciel à été effectué en parallèle puis joint quand leur dévéloppement fut suffisament accomplis. Le schéma suivante
-est donc obtenu
+est donc obtenu:
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics[scale = 0.25]{Trottoir_Diagram.drawio.png}}
+    \caption{Schéma du trottoir}
+    \label{fig7}
+\end{figure} 
+Durant la démonstrations des séries de test furent effectués afin de tester les limites de notre design. Le poids et la vitesse on été ajusté à l'échelle de la maquette de trottoir.
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics[scale = 0.18]{Système_Test.PNG}}
+    \caption{Maquette Test}
+    \label{fig8}
+\end{figure} 
+
+Dû au mismatch des baudrate le raspberry pi ne pu être utilisé et un laptop fut utilisé à sa place.
+
+\subsection{Tests}
+
+\subsubsection{Test1 objet immobile}
+On pose un objet immobile, le résultat est l'affichage de son poids, le tableau de bord affiche un lampadaire éteint. Le test est un succès.
+
+\subsubsection{Test2 objet léger à mouvement rapide}
+On fait bouger un objet sur la maquette de trottoir, le poids reste le même mais le lampadaire ne s'allume pas, le statut n'affiche pas la valeur voulue, piéton. Le test est un échec.
+
+\subsection{Budget Final}
+
+\begin{table}[htbp]
+    \caption{Budget}
+    \begin{center}
+    \begin{tabular}{|c|c|c|}
+    \hline\\
+    \textbf{number} & \textbf{\textit{Component}}& \textbf{\textit{Price(CAD)}}\\
+    \hline
+    1& HX711 Load Cell& 15,99   \\
+    \hline
+    1&  HC-SR501 IR sensorx5& 18,99\\
+    \hline
+    1&  Nano Board ATmega328Px3& 40,89\\ 
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Total}}& 75,87\\
+    \end{tabular}
+    \label{tab1}
+    \end{center}
+    \end{table}
+    
+
 
 
 
@@ -175,10 +221,8 @@ Le travail effectué lors de ce projet est fonctionne comme une preuve de concep
 
 \section*{Reconnaissance}
 
-The preferred spelling of the word ``acknowledgment'' in America is without 
-an ``e'' after the ``g''. Avoid the stilted expression ``one of us (R. B. 
-G.) thanks $\ldots$''. Instead, try ``R. B. G. thanks$\ldots$''. Put sponsor 
-acknowledgments in the unnumbered footnote on the first page.
+Nous voudrion remercier le professeur Mahmoud Youssef pour l'opportunité d'accomplir ce projet ainsi
+que l'assistant à l'enseignement Mohammed Yassine Bouhamidi pour son aide et orientation dans l'implémentation des technologie de communication en ligne.
 
 
 
