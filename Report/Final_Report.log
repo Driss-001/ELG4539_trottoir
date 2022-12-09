@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.12.6)  8 DEC 2022 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.12.6)  8 DEC 2022 21:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -529,24 +529,24 @@ LaTeX Warning: Label `fig8' multiply defined.
 )
 \openout1 = `Final_Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 -- Lines per column: 58 (exact).
 (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -568,7 +568,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 14.
+Package hyperref Info: Link coloring OFF on input line 15.
  (c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (c:/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -578,37 +578,37 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count321
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
  (./Final_Report.out) (./Final_Report.out)
 \@outlinefile=\write4
 \openout4 = `Final_Report.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 37.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 38.
 
 ** WARNING: \and is valid only when in conference or peerreviewca
-modes (line 37).
+modes (line 38).
 
-Underfull \hbox (badness 3068) in paragraph at lines 64--67
+Underfull \hbox (badness 3068) in paragraph at lines 65--68
 []\OT1/ptm/m/n/10 Pour le hard-ware du pro-jet, nous avons d[]ecid[]e de
  []
 
 <hardware1.png, id=72, 185.6025pt x 206.6265pt>
 File: hardware1.png Graphic file (type png)
 <use hardware1.png>
-Package pdftex.def Info: hardware1.png  used on input line 69.
+Package pdftex.def Info: hardware1.png  used on input line 70.
 (pdftex.def)             Requested size: 185.60204pt x 206.62598pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--77
+Underfull \hbox (badness 10000) in paragraph at lines 75--78
 
  []
 
@@ -619,46 +619,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--77
 <hardware2.png, id=90, 225.84375pt x 106.89937pt>
 File: hardware2.png Graphic file (type png)
 <use hardware2.png>
-Package pdftex.def Info: hardware2.png  used on input line 84.
+Package pdftex.def Info: hardware2.png  used on input line 85.
 (pdftex.def)             Requested size: 225.84319pt x 106.8991pt.
 <Trottoir_Flowchart_arduino.drawio.png, id=92, 1221.56375pt x 884.30376pt>
 File: Trottoir_Flowchart_arduino.drawio.png Graphic file (type png)
 <use Trottoir_Flowchart_arduino.drawio.png>
-Package pdftex.def Info: Trottoir_Flowchart_arduino.drawio.png  used on input line 100.
+Package pdftex.def Info: Trottoir_Flowchart_arduino.drawio.png  used on input line 101.
 (pdftex.def)             Requested size: 244.30843pt x 176.85762pt.
 <Matrice_décisions.PNG, id=93, 953.06062pt x 359.3425pt>
 File: Matrice_décisions.PNG Graphic file (type png)
 <use Matrice_décisions.PNG>
-Package pdftex.def Info: Matrice_décisions.PNG  used on input line 121.
+Package pdftex.def Info: Matrice_décisions.PNG  used on input line 122.
 (pdftex.def)             Requested size: 285.9204pt x 107.80357pt.
 <Trottoir_Flowchart.drawio.png, id=94, 750.805pt x 935.495pt>
 File: Trottoir_Flowchart.drawio.png Graphic file (type png)
 <use Trottoir_Flowchart.drawio.png>
-Package pdftex.def Info: Trottoir_Flowchart.drawio.png  used on input line 131.
+Package pdftex.def Info: Trottoir_Flowchart.drawio.png  used on input line 132.
 (pdftex.def)             Requested size: 135.13907pt x 168.38182pt.
  [2 <./hardware2.png> <./Trottoir_Flowchart_arduino.drawio.png> <./Matrice_décisions.PNG> <./Trottoir_Flowchart.drawio.png>]
 <react_dashboard.PNG, id=116, 1082.8455pt x 361.35pt>
 File: react_dashboard.PNG Graphic file (type png)
 <use react_dashboard.PNG>
-Package pdftex.def Info: react_dashboard.PNG  used on input line 154.
+Package pdftex.def Info: react_dashboard.PNG  used on input line 155.
 (pdftex.def)             Requested size: 194.90378pt x 65.04019pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--160
+Underfull \hbox (badness 10000) in paragraph at lines 153--161
 
  []
 
 <Trottoir_Diagram.drawio.png, id=118, 621.32124pt x 720.6925pt>
 File: Trottoir_Diagram.drawio.png Graphic file (type png)
 <use Trottoir_Diagram.drawio.png>
-Package pdftex.def Info: Trottoir_Diagram.drawio.png  used on input line 166.
+Package pdftex.def Info: Trottoir_Diagram.drawio.png  used on input line 167.
 (pdftex.def)             Requested size: 155.32993pt x 180.17268pt.
 <Système_Test.PNG, id=119, 933.4875pt x 534.99875pt>
 File: Système_Test.PNG Graphic file (type png)
 <use Système_Test.PNG>
-Package pdftex.def Info: Système_Test.PNG  used on input line 173.
+Package pdftex.def Info: Système_Test.PNG  used on input line 174.
 (pdftex.def)             Requested size: 168.0205pt x 96.29561pt.
 
-Underfull \hbox (badness 3240) in paragraph at lines 216--217
+Underfull \hbox (badness 3240) in paragraph at lines 217--218
 []\OT1/ptm/m/n/10 Probl[]eme de syn-chro-ni-sa-tion de la bau-drate en-tre
  []
 
@@ -666,31 +666,36 @@ Underfull \hbox (badness 3240) in paragraph at lines 216--217
 <IR_CONE.png, id=134, 329.73187pt x 307.90031pt>
 File: IR_CONE.png Graphic file (type png)
 <use IR_CONE.png>
-Package pdftex.def Info: IR_CONE.png  used on input line 227.
+Package pdftex.def Info: IR_CONE.png  used on input line 228.
 (pdftex.def)             Requested size: 164.86552pt x 153.94977pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 \OT1/ptm/m/n/8 Et Lutte Con-tre Les Change-ments Cli-ma-tiques, Qu[]ebec,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 \OT1/ptm/m/n/8 https://www.environnement.gouv.qc.ca/jeunesse/chronique/2005/0503-
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 248--249
+Underfull \hbox (badness 6396) in paragraph at lines 249--250
 []\OT1/ptm/m/n/8 \How HC-SR501 PIR Sen-sor Works and How To In-ter-face
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 \OT1/ptm/m/n/8 It With Ar-duino," Last Minute En-gi-neers, Jul. 03, 2018.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 \OT1/ptm/m/n/8 https://lastminuteengineers.com/pir-sensor-arduino-tutorial/ (ac-cessed
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 251--252
+[][]$\OT1/ptm/m/n/8 https : / / github . com / Driss-[]001 / ELG4539[]trottoir$[](accessed on $\OT1/cmr/m/n/8 8[]$ \OT1/ptm/m/n/8 De-
  []
 
 [4 <./IR_CONE.png>] (./Final_Report.aux)
@@ -701,18 +706,18 @@ Package rerunfilecheck Info: File `Final_Report.out' has not changed.
 (rerunfilecheck)             Checksum: C770E88365A7343ECFA6625D33A82978;1970.
  ) 
 Here is how much of TeX's memory you used:
- 21471 strings out of 478353
- 405300 string characters out of 5852101
+ 21472 strings out of 478353
+ 405318 string characters out of 5852101
  681860 words of memory out of 5000000
- 39184 multiletter control sequences out of 15000+600000
+ 39185 multiletter control sequences out of 15000+600000
  449742 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,9n,94p,728b,822s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Final_Report.pdf (4 pages, 4241253 bytes).
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Final_Report.pdf (4 pages, 4220817 bytes).
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
+ 213 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
  39 named destinations out of 1000 (max. 500000)
  178 words of extra memory for PDF output out of 10000 (max. 10000000)
 
