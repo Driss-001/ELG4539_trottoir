@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.12.6)  8 DEC 2022 20:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.12.6)  8 DEC 2022 20:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -585,30 +585,30 @@ LaTeX Info: Redefining \nameref on input line 14.
 \@outlinefile=\write4
 \openout4 = `Final_Report.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 36.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 37.
 
 ** WARNING: \and is valid only when in conference or peerreviewca
-modes (line 36).
+modes (line 37).
 
-Underfull \hbox (badness 3068) in paragraph at lines 63--66
+Underfull \hbox (badness 3068) in paragraph at lines 64--67
 []\OT1/ptm/m/n/10 Pour le hard-ware du pro-jet, nous avons d[]ecid[]e de
  []
 
 <hardware1.png, id=72, 185.6025pt x 206.6265pt>
 File: hardware1.png Graphic file (type png)
 <use hardware1.png>
-Package pdftex.def Info: hardware1.png  used on input line 68.
+Package pdftex.def Info: hardware1.png  used on input line 69.
 (pdftex.def)             Requested size: 185.60204pt x 206.62598pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--76
+Underfull \hbox (badness 10000) in paragraph at lines 74--77
 
  []
 
@@ -619,46 +619,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--76
 <hardware2.png, id=90, 225.84375pt x 106.89937pt>
 File: hardware2.png Graphic file (type png)
 <use hardware2.png>
-Package pdftex.def Info: hardware2.png  used on input line 83.
+Package pdftex.def Info: hardware2.png  used on input line 84.
 (pdftex.def)             Requested size: 225.84319pt x 106.8991pt.
 <Trottoir_Flowchart_arduino.drawio.png, id=92, 1221.56375pt x 884.30376pt>
 File: Trottoir_Flowchart_arduino.drawio.png Graphic file (type png)
 <use Trottoir_Flowchart_arduino.drawio.png>
-Package pdftex.def Info: Trottoir_Flowchart_arduino.drawio.png  used on input line 99.
+Package pdftex.def Info: Trottoir_Flowchart_arduino.drawio.png  used on input line 100.
 (pdftex.def)             Requested size: 244.30843pt x 176.85762pt.
 <Matrice_décisions.PNG, id=93, 953.06062pt x 359.3425pt>
 File: Matrice_décisions.PNG Graphic file (type png)
 <use Matrice_décisions.PNG>
-Package pdftex.def Info: Matrice_décisions.PNG  used on input line 120.
+Package pdftex.def Info: Matrice_décisions.PNG  used on input line 121.
 (pdftex.def)             Requested size: 285.9204pt x 107.80357pt.
 <Trottoir_Flowchart.drawio.png, id=94, 750.805pt x 935.495pt>
 File: Trottoir_Flowchart.drawio.png Graphic file (type png)
 <use Trottoir_Flowchart.drawio.png>
-Package pdftex.def Info: Trottoir_Flowchart.drawio.png  used on input line 130.
+Package pdftex.def Info: Trottoir_Flowchart.drawio.png  used on input line 131.
 (pdftex.def)             Requested size: 135.13907pt x 168.38182pt.
  [2 <./hardware2.png> <./Trottoir_Flowchart_arduino.drawio.png> <./Matrice_décisions.PNG> <./Trottoir_Flowchart.drawio.png>]
 <react_dashboard.PNG, id=116, 1082.8455pt x 361.35pt>
 File: react_dashboard.PNG Graphic file (type png)
 <use react_dashboard.PNG>
-Package pdftex.def Info: react_dashboard.PNG  used on input line 153.
+Package pdftex.def Info: react_dashboard.PNG  used on input line 154.
 (pdftex.def)             Requested size: 194.90378pt x 65.04019pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--158
+Underfull \hbox (badness 10000) in paragraph at lines 152--159
 
  []
 
 <Trottoir_Diagram.drawio.png, id=117, 621.32124pt x 720.6925pt>
 File: Trottoir_Diagram.drawio.png Graphic file (type png)
 <use Trottoir_Diagram.drawio.png>
-Package pdftex.def Info: Trottoir_Diagram.drawio.png  used on input line 164.
+Package pdftex.def Info: Trottoir_Diagram.drawio.png  used on input line 165.
 (pdftex.def)             Requested size: 155.32993pt x 180.17268pt.
 <Système_Test.PNG, id=118, 933.4875pt x 534.99875pt>
 File: Système_Test.PNG Graphic file (type png)
 <use Système_Test.PNG>
-Package pdftex.def Info: Système_Test.PNG  used on input line 171.
+Package pdftex.def Info: Système_Test.PNG  used on input line 172.
 (pdftex.def)             Requested size: 168.0205pt x 96.29561pt.
 
-Underfull \hbox (badness 3240) in paragraph at lines 214--215
+Underfull \hbox (badness 3240) in paragraph at lines 215--216
 []\OT1/ptm/m/n/10 Probl[]eme de syn-chro-ni-sa-tion de la bau-drate en-tre
  []
 
@@ -666,30 +666,30 @@ Underfull \hbox (badness 3240) in paragraph at lines 214--215
 <IR_CONE.png, id=132, 329.73187pt x 307.90031pt>
 File: IR_CONE.png Graphic file (type png)
 <use IR_CONE.png>
-Package pdftex.def Info: IR_CONE.png  used on input line 225.
+Package pdftex.def Info: IR_CONE.png  used on input line 226.
 (pdftex.def)             Requested size: 164.86552pt x 153.94977pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
 \OT1/ptm/m/n/8 Et Lutte Con-tre Les Change-ments Cli-ma-tiques, Qu[]ebec,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
 \OT1/ptm/m/n/8 https://www.environnement.gouv.qc.ca/jeunesse/chronique/2005/0503-
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 246--247
+Underfull \hbox (badness 6396) in paragraph at lines 247--248
 []\OT1/ptm/m/n/8 \How HC-SR501 PIR Sen-sor Works and How To In-ter-face
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
 \OT1/ptm/m/n/8 It With Ar-duino," Last Minute En-gi-neers, Jul. 03, 2018.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
 \OT1/ptm/m/n/8 https://lastminuteengineers.com/pir-sensor-arduino-tutorial/ (ac-cessed
  []
 
@@ -703,13 +703,13 @@ Package rerunfilecheck Info: File `Final_Report.out' has not changed.
 Here is how much of TeX's memory you used:
  21473 strings out of 478353
  405311 string characters out of 5852101
- 682884 words of memory out of 5000000
+ 681884 words of memory out of 5000000
  39185 multiletter control sequences out of 15000+600000
  449742 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,9n,94p,728b,822s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Final_Report.pdf (4 pages, 4204537 bytes).
+Output written on Final_Report.pdf (4 pages, 4204602 bytes).
 PDF statistics:
  202 PDF objects out of 1000 (max. 8388607)
  152 compressed objects within 2 object streams
