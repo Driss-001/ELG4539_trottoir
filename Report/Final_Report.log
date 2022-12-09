@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.12.6)  8 DEC 2022 20:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.12.6)  8 DEC 2022 21:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -643,53 +643,53 @@ File: react_dashboard.PNG Graphic file (type png)
 Package pdftex.def Info: react_dashboard.PNG  used on input line 154.
 (pdftex.def)             Requested size: 194.90378pt x 65.04019pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--159
+Underfull \hbox (badness 10000) in paragraph at lines 152--160
 
  []
 
-<Trottoir_Diagram.drawio.png, id=117, 621.32124pt x 720.6925pt>
+<Trottoir_Diagram.drawio.png, id=118, 621.32124pt x 720.6925pt>
 File: Trottoir_Diagram.drawio.png Graphic file (type png)
 <use Trottoir_Diagram.drawio.png>
-Package pdftex.def Info: Trottoir_Diagram.drawio.png  used on input line 165.
+Package pdftex.def Info: Trottoir_Diagram.drawio.png  used on input line 166.
 (pdftex.def)             Requested size: 155.32993pt x 180.17268pt.
-<Système_Test.PNG, id=118, 933.4875pt x 534.99875pt>
+<Système_Test.PNG, id=119, 933.4875pt x 534.99875pt>
 File: Système_Test.PNG Graphic file (type png)
 <use Système_Test.PNG>
-Package pdftex.def Info: Système_Test.PNG  used on input line 172.
+Package pdftex.def Info: Système_Test.PNG  used on input line 173.
 (pdftex.def)             Requested size: 168.0205pt x 96.29561pt.
 
-Underfull \hbox (badness 3240) in paragraph at lines 215--216
+Underfull \hbox (badness 3240) in paragraph at lines 216--217
 []\OT1/ptm/m/n/10 Probl[]eme de syn-chro-ni-sa-tion de la bau-drate en-tre
  []
 
 [3 <./react_dashboard.PNG> <./Trottoir_Diagram.drawio.png> <./Système_Test.PNG>]
-<IR_CONE.png, id=132, 329.73187pt x 307.90031pt>
+<IR_CONE.png, id=134, 329.73187pt x 307.90031pt>
 File: IR_CONE.png Graphic file (type png)
 <use IR_CONE.png>
-Package pdftex.def Info: IR_CONE.png  used on input line 226.
+Package pdftex.def Info: IR_CONE.png  used on input line 227.
 (pdftex.def)             Requested size: 164.86552pt x 153.94977pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 \OT1/ptm/m/n/8 Et Lutte Con-tre Les Change-ments Cli-ma-tiques, Qu[]ebec,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 \OT1/ptm/m/n/8 https://www.environnement.gouv.qc.ca/jeunesse/chronique/2005/0503-
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 247--248
+Underfull \hbox (badness 6396) in paragraph at lines 248--249
 []\OT1/ptm/m/n/8 \How HC-SR501 PIR Sen-sor Works and How To In-ter-face
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
 \OT1/ptm/m/n/8 It With Ar-duino," Last Minute En-gi-neers, Jul. 03, 2018.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
 \OT1/ptm/m/n/8 https://lastminuteengineers.com/pir-sensor-arduino-tutorial/ (ac-cessed
  []
 
@@ -701,18 +701,18 @@ Package rerunfilecheck Info: File `Final_Report.out' has not changed.
 (rerunfilecheck)             Checksum: C770E88365A7343ECFA6625D33A82978;1970.
  ) 
 Here is how much of TeX's memory you used:
- 21473 strings out of 478353
- 405311 string characters out of 5852101
- 681884 words of memory out of 5000000
- 39185 multiletter control sequences out of 15000+600000
+ 21471 strings out of 478353
+ 405300 string characters out of 5852101
+ 681860 words of memory out of 5000000
+ 39184 multiletter control sequences out of 15000+600000
  449742 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,9n,94p,728b,822s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Final_Report.pdf (4 pages, 4204602 bytes).
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Final_Report.pdf (4 pages, 4241253 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
+ 222 PDF objects out of 1000 (max. 8388607)
+ 164 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
  178 words of extra memory for PDF output out of 10000 (max. 10000000)
 
